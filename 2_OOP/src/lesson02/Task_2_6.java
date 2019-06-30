@@ -3,9 +3,15 @@ package lesson02;
 public class Task_2_6 {
     public static void main(String [] args) {
         int [] arr = new int[10];
-        fill(arr, 0); // заполнить массив используя рекурсию
-        printArr(arr,0); // отобразить элементы массива
-        System.out.println("Элемент 7 расположен под индектом: " + find(arr, 0, 7)); // найти значение 7 и отобразить его индекс в массиве, поиск с индекса 0
+
+//        fill(arr, 0); // заполнить массив используя рекурсию
+        fillLoop(arr); // заполнить массив используя for ()
+
+//        printArr(arr,0); // отобразить элементы массива
+        printArrLoop(arr);
+
+//        System.out.println("Элемент 7 расположен под индектом: " + find(arr, 0, 7)); // найти значение 7 и отобразить его индекс в массиве, поиск с индекса 0
+        System.out.println("Элемент 7 расположен под индектом: " + findLoop(arr, 7)); // найти значение 7 и отобразить его индекс в массиве, поиск с индекса 0
     }
 
     public static int find(int [] arr, int i, int el) {
@@ -29,9 +35,6 @@ public class Task_2_6 {
         return -1;
     }
 
-    /*
-    * Заполнение массива через рекурсию
-    * */
     public static void fill(int [] arr, int i) {
         if (i < arr.length) {
             arr[i] = (int) (Math.random() * 10);
@@ -40,9 +43,6 @@ public class Task_2_6 {
         return;
     }
 
-    /*
-     * Заполнение массива через чикл for ()
-     * */
     public static void fillLoop(int [] arr) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 10);
