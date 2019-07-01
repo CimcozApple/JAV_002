@@ -1,9 +1,9 @@
 /*
  * A
- * BB
- * CCC
- * DDDD
- * EEEEE
+ * B B
+ * C C C
+ * D D D D
+ * E E E E E
  * */
 public class Pattern_013 {
     public static void main(String[] args) {
