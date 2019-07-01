@@ -16,5 +16,24 @@ public class Pattern_013 {
             }
             System.out.println();
         }
+
+        // 13
+        // a
+        // b b
+        // c c c
+        // d d d d
+        // e e e e e
+//        char s = 64;
+//        char f = 69;
+//        int x = 1;
+
+//        for (char i = s; i <= f; i++) {
+//            for (int a = 1; a < x; a++) {
+//                System.out.print(i + " ");
+//            }
+//            x++;
+//            System.out.println();
+//        }
+
     }
 }
