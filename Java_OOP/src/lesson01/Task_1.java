@@ -7,16 +7,16 @@ public class Task_1 {
     static int count;
 
     public static void main(String [] args) {
-        int [] myArray = new int[3];
+//        int [] myArray = new int[3];
 //        prePostIncrement();
-        generateRandomNumbers(myArray);
+//        generateRandomNumbers(myArray);
 //        sortArrayBubbleLowToHigh(myArray);
 //        sortArrayBubbleHighToLow(myArray);
 //        sortArraySelectionLowToHigh(myArray);
-        sortArrayInsertionLowToHigh(myArray);
+//        sortArrayInsertionLowToHigh(myArray);
 
-        System.out.print("\nOperations: " + count);
-    }
+//        System.out.print("\nOperations: " + count);
+        }
 
     public static void showArray(int [] array) {
         for (int i = 0; i < array.length; i++) {
