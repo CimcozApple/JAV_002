@@ -21,5 +21,18 @@ public class Pattern_033 {
             System.out.println();
         }
         System.out.println();
+        /*********************************************************************************/
+        for (int i = 0, a = 70, b = 0; i <= 4; i++) {
+            for (int y = 0; y < b; y++) {
+                System.out.print("  ");
+            }
+            b++;
+
+            for (int c = 65; c < a; c++) {
+                System.out.print((char) c + " ");
+            }
+            a--;
+            System.out.println();
+        }
     }
 }

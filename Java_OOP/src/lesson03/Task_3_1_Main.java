@@ -1,6 +1,6 @@
 package lesson03;
 
-public class Task_3_1 {
+public class Task_3_1_Main {
     public static void main(String[] args) {
         User user1 = new User("Bond", 18, 45, "xxx@x.com");
         user1.setAge(-1);
