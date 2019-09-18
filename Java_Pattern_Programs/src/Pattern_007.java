@@ -1,13 +1,14 @@
-/*
-* 5 4 3 2 1
-* 5 4 3 2 1
-* 5 4 3 2 1
-* 5 4 3 2 1
-* 5 4 3 2 1
-* */
 public class Pattern_007 {
     public static void main(String[] args) {
-        // pattern 7
+        /*
+         * pattern 7
+         *
+         * 5 4 3 2 1
+         * 5 4 3 2 1
+         * 5 4 3 2 1
+         * 5 4 3 2 1
+         * 5 4 3 2 1
+         * */
         int foo3 = 5;
         int fooE3 = 1;
         for (int i = foo3; i >= fooE3; i--) {

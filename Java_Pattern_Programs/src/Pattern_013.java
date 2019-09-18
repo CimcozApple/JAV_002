@@ -1,12 +1,12 @@
-/*
- * A
- * B B
- * C C C
- * D D D D
- * E E E E E
- * */
 public class Pattern_013 {
     public static void main(String[] args) {
+        /*
+         * A
+         * B B
+         * C C C
+         * D D D D
+         * E E E E E
+         * */
         char foo4 = 65; // A
         char fooE4 = 69; // E
 

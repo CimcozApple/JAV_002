@@ -1,13 +1,14 @@
-/*
-* 1 1 1 1 1
-* 2 2 2 2 2
-* 3 3 3 3 3
-* 4 4 4 4 4
-* 5 5 5 5 5
-* */
 public class Pattern_002 {
     public static void main(String [] args) {
-        // option 1
+        /*
+         * option 1
+         *
+         * 1 1 1 1 1
+         * 2 2 2 2 2
+         * 3 3 3 3 3
+         * 4 4 4 4 4
+         * 5 5 5 5 5
+         * */
         int countOfString = 5;
         int numbers = 1;
 
