@@ -1,8 +1,8 @@
 /.idea
 /out
 
-/JAV_002.iml
-/Other/Other.iml
-/Java_Basic/Java_Basic.iml
-/Java_OOP/Java_OOP.iml
-/Java_Pattern_Programs/Java_Pattern_Programs.iml
+#/JAV_002.iml
+#/Other/Other.iml
+#/Java_Basic/Java_Basic.iml
+#/Java_OOP/Java_OOP.iml
+#/Java_Pattern_Programs/Java_Pattern_Programs.iml
