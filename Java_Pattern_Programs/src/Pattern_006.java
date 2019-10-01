@@ -1,6 +1,3 @@
-import java.io.FileInputStream;
-import java.io.InputStream;
-
 public class Pattern_006 {
     public static void main(String[] args) {
         /*
