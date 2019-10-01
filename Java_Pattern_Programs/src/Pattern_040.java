@@ -8,16 +8,16 @@ public class Pattern_040 {
          *   7 6 5 4 3 2 1
          * 9 8 7 6 5 4 3 2 1
          *
-         * row value preferably be from 1 up to 5
+         * 'howManyRowsDoYouNeed' value preferably be from 1 up to 5
          * */
-        int rows = 5;
-        int spaces = rows - 1;
+        int howManyRowsDoYouNeed = 5;
+        int countOfSpacesBeforeFirstNumber = howManyRowsDoYouNeed - 1;
 
-        for (int i = 0, digit = 1; i < rows; i++) {
-            for (int a = 0; a < spaces; a++) {
+        for (int i = 0, digit = 1; i < howManyRowsDoYouNeed; i++) {
+            for (int a = 0; a < countOfSpacesBeforeFirstNumber; a++) {
                 System.out.print("  ");
             }
-            spaces--;
+            countOfSpacesBeforeFirstNumber--;
 
             int backCount = digit;
             for (int b = 0; b < digit; b++) {
