@@ -8,7 +8,7 @@ public class Pattern_041 {
          *   A B C D E F G
          * A B C D E F G H I
          *
-         * row value preferably be from 1 up to 13
+         * howManyRowsDoYouNeed value preferably be from 1 up to 13
          * */
         int howManyRowsDoYouNeed = 13;
         int countOfSpacesBeforeFirstNumber = howManyRowsDoYouNeed - 1;
