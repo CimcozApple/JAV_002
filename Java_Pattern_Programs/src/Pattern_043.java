@@ -8,7 +8,7 @@ public class Pattern_043 {
          *   3 2 1 0 1 2 3
          * 4 3 2 1 0 1 2 3 4
          *
-         * row value preferably be from - up to -
+         * howManyRowsDoYouNeed value preferably be from - up to -
          * */
         int howManyRowsDoYouNeed = 5;
         int countOfSpacesBeforeFirstNumber = howManyRowsDoYouNeed - 1;
