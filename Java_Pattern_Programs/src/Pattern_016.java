@@ -13,6 +13,5 @@ public class Pattern_016 {
             b++;
             System.out.println();
         }
-        System.out.println();
     }
 }

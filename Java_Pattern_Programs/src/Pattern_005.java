@@ -1,8 +1,7 @@
 public class Pattern_005 {
     public static void main(String[] args) {
         /*
-         * pattern 5
-         *
+         * 5
          * A B C D E
          * A B C D E
          * A B C D E

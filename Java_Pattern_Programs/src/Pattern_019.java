@@ -14,6 +14,5 @@ public class Pattern_019 {
             b--;
             System.out.println();
         }
-        System.out.println();
     }
 }

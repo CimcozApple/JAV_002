@@ -6,12 +6,11 @@ public class Pattern_018 {
         // C C C
         // D D
         // E
-        int c = 5;
-        for (char i = 65; i <= 70; i++) {
-            for (int a = c; a >= 1; a--) {
-                System.out.print(i + " ");
+        for (int i = 65, letter = 5; i <= 70; i++) {
+            for (int a = letter; a >= 1; a--) {
+                System.out.print((char) i + " ");
             }
-            c--;
+            letter--;
             System.out.println();
         }
     }

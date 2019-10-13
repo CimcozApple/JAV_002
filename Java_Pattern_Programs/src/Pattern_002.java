@@ -1,8 +1,7 @@
 public class Pattern_002 {
     public static void main(String [] args) {
         /*
-         * option 1
-         *
+         * 1
          * 1 1 1 1 1
          * 2 2 2 2 2
          * 3 3 3 3 3
@@ -12,6 +11,7 @@ public class Pattern_002 {
         int countOfString = 5;
         int numbers = 1;
 
+        // option 1
         for (int i = 0; i < countOfString; i++) {
             for (int a = 1; a <= countOfString; a++) {
                 System.out.print(numbers + " ");

@@ -12,6 +12,5 @@ public class Pattern_020 {
             }
             System.out.println();
         }
-        System.out.println();
     }
 }

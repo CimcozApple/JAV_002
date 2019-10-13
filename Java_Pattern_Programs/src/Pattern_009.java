@@ -1,8 +1,7 @@
 public class Pattern_009 {
     public static void main(String [] args) {
         /*
-         * pattern 9
-         *
+         * 9
          * E D C B A
          * E D C B A
          * E D C B A
@@ -18,5 +17,4 @@ public class Pattern_009 {
             System.out.println();
         }
     }
-
 }

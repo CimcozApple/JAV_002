@@ -1,8 +1,7 @@
 public class Pattern_008 {
     public static void main(String [] args) {
         /*
-         * pattern 8
-         *
+         * 8
          * E E E E E
          * D D D D D
          * C C C C C
