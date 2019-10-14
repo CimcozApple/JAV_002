@@ -6,18 +6,12 @@ public class Pattern_021 {
         // 5 4 3
         // 5 4
         // 5
-        // определить сколько раз по ширине
-        // определить сколько раз по высоте
-        // определить что будем показывать
         for (int i = 5; i >= 1; i--) {
-            int g = 5;
-            for (int a = i; a >= 1; a--) {
-                System.out.print(g + " ");
-                g--;
+            for (int a = i, fiveDigit = 5; a >= 1; a--) {
+                System.out.print(fiveDigit + " ");
+                fiveDigit--;
             }
             System.out.println();
         }
-        System.out.println();
-
     }
 }
