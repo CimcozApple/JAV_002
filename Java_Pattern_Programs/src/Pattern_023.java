@@ -7,13 +7,11 @@ public class Pattern_023 {
         // E D
         // E
         for (int i = 5; i >= 1; i--) {
-            char j = 69;
-            for (int a = i; a >= 1; a--) {
-                System.out.print(j + " ");
-                j--;
+            for (int a = i, lastLetter = 69; a >= 1; a--) {
+                System.out.print((char) lastLetter + " ");
+                lastLetter--;
             }
             System.out.println();
         }
-        System.out.println();
     }
 }

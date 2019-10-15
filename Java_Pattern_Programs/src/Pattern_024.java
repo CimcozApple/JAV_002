@@ -6,18 +6,16 @@ public class Pattern_024 {
         //     * * *
         //   * * * *
         // * * * * *
-        int k = 4;
-        for (int i = 1; i <= 5; i++) {
-            for (int a = k; a >= 1; a--) {
+        for (int i = 1, space = 4; i <= 5; i++) {
+            for (int a = space; a >= 1; a--) {
                 System.out.print("  ");
             }
 
-            for (int m = 1;m <= i; m++) {
+            for (int asterisk = 1; asterisk <= i; asterisk++) {
                 System.out.print("* ");
             }
-            k--;
+            space--;
             System.out.println();
         }
-        System.out.println();
     }
 }

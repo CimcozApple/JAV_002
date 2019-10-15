@@ -6,14 +6,12 @@ public class Pattern_022 {
         // C C C
         // B B
         // A
-        char h = 69;
-        for (int i = 5; i >= 1; i--) {
+        for (int i = 5, lastLetter = 69; i >= 1; i--) {
             for (int a = i; a >= 1; a--) {
-                System.out.print(h + " ");
+                System.out.print((char) lastLetter + " ");
             }
             System.out.println();
-            h--;
+            lastLetter--;
         }
-        System.out.println();
     }
 }
