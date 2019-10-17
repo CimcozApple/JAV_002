@@ -6,20 +6,17 @@ public class Pattern_025 {
         //     3 3 3
         //   4 4 4 4
         // 5 5 5 5 5
-        int m = 4;
-        int n = 1;
-        for (int i = 1; i <= 5; i++) {
-            for (int a = m; a >= 1; a--) {
+        for (int i = 1, spacesBeforeDigit = 4, digit = 1; i <= 5; i++) {
+            for (int a = spacesBeforeDigit; a >= 1; a--) {
                 System.out.print("  ");
             }
-            m--;
+            spacesBeforeDigit--;
 
             for (int ab = 1; ab <= i; ab++) {
-                System.out.print(n + " ");
+                System.out.print(digit + " ");
             }
-            n++;
+            digit++;
             System.out.println();
         }
-        System.out.println();
     }
 }
