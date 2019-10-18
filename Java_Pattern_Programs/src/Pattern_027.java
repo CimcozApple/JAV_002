@@ -6,21 +6,18 @@ public class Pattern_027 {
         //     C C C
         //   D D D D
         // E E E E E
-        char ad = 65;
-        char av = 65;
-        int ag = 4;
-        for (char i = 65; i <= 69; i++) {
-            for (int ab = ag; ab >= 1; ab--) {
+        for (char i = 65, spacesBeforeLetter = 4, letter = 65; i <= 69; i++) {
+            for (int a = spacesBeforeLetter; a >= 1; a--) {
                 System.out.print("  ");
             }
-            ag--;
+            spacesBeforeLetter--;
 
-            for (char ac = ad; ac <= av; ac++) {
-                System.out.print(av + " ");
+            for (char b = 65; b <= letter; b++) {
+                System.out.print(letter + " ");
             }
+
+            letter++;
             System.out.println();
-            av++;
         }
-        System.out.println();
     }
 }
