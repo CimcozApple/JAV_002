@@ -6,19 +6,16 @@ public class Pattern_028 {
         //     A B C
         //   A B C D
         // A B C D E
-        char end = 68;
-        char en = 65;
-        for (char i = 65; i <= 69; i++) {
-            for (char space = end; space >= 65; space--) {
+        for (char i = 65, letter = 65, spaces = 68; i <= 69; i++) {
+            for (char a = spaces; a >= 65; a--) {
                 System.out.print("  ");
             }
-            end--;
+            spaces--;
 
-            for (char as = en; as <= i; as++) {
-                System.out.print(as + " ");
+            for (char b = letter; b <= i; b++) {
+                System.out.print(b + " ");
             }
             System.out.println();
         }
-        System.out.println();
     }
 }
