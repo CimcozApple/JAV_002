@@ -19,6 +19,5 @@ public class Pattern_029 {
             agf++;
             System.out.println();
         }
-        System.out.println();
     }
 }
