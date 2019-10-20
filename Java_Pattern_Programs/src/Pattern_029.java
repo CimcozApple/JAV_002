@@ -6,17 +6,15 @@ public class Pattern_029 {
         //     * * *
         //       * *
         //         *
-        System.out.println("----------29");
-        int agf = 1;
-        for (int i = 0; i <= 4; i++) {
-            for (int axv = 1; axv <= i; axv++) {
+        for (int i = 0, asterisk = 1; i <= 4; i++) {
+            for (int a = 1; a <= i; a++) {
                 System.out.print("  ");
             }
 
-            for (int ax = 5; ax >= agf; ax--) {
+            for (int b = 5; b >= asterisk; b--) {
                 System.out.print("* ");
             }
-            agf++;
+            asterisk++;
             System.out.println();
         }
     }
