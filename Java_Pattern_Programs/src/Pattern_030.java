@@ -6,7 +6,6 @@ public class Pattern_030 {
         //     3 3 3
         //       2 2
         //         1
-        System.out.println("----------30");
         for (int i = 5; i >= 1; i--) {
             for (int ads = 4; ads > i - 1; ads--) {
                 System.out.print("  ");
@@ -17,6 +16,5 @@ public class Pattern_030 {
             }
             System.out.println();
         }
-        System.out.println();
     }
 }
