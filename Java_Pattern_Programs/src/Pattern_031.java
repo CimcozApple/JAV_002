@@ -6,20 +6,16 @@ public class Pattern_031 {
         //     1 2 3
         //       1 2
         //         1
-        System.out.println("----------31");
-        int add = 1;
-        int lee = 5;
-        for (int i = 1; i <= 5; i++) {
-            for (int ags = 2; ags <= i; ags++) {
+        for (int i = 1, firstDigit = 1, lastDigit = 5; i <= 5; i++) {
+            for (int a = 2; a <= i; a++) {
                 System.out.print("  ");
             }
 
-            for (int ass = add; ass <= lee; ass++) {
-                System.out.print(ass + " ");
+            for (int b = firstDigit; b <= lastDigit; b++) {
+                System.out.print(b + " ");
             }
-            lee--;
+            lastDigit--;
             System.out.println();
         }
-        System.out.println();
     }
 }

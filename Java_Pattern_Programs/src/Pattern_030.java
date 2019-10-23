@@ -7,11 +7,11 @@ public class Pattern_030 {
         //       2 2
         //         1
         for (int i = 5; i >= 1; i--) {
-            for (int ads = 4; ads > i - 1; ads--) {
+            for (int a = 4; a > i - 1; a--) {
                 System.out.print("  ");
             }
 
-            for (int afw = i; afw >= 1; afw--) {
+            for (int b = i; b >= 1; b--) {
                 System.out.print(i + " ");
             }
             System.out.println();
