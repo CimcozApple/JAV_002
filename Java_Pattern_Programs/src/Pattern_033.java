@@ -6,32 +6,16 @@ public class Pattern_033 {
         //     A B C
         //       A B
         //         A
-        System.out.println("----------33");
-        char shq = 65;
-        char aas = 69;
-        for (int i = 1; i <= 5; i++) {
-            for (int d = 1; d < i; d++) {
+        for (int i = 0, lastLetter = 70, count = 0; i <= 4; i++) {
+            for (int a = 0; a < count; a++) {
                 System.out.print("  ");
             }
+            count++;
 
-            for (char iu = shq; iu <= aas; iu++) {
-                System.out.print(iu + " ");
+            for (int b = 65; b < lastLetter; b++) {
+                System.out.print((char) b + " ");
             }
-            aas--;
-            System.out.println();
-        }
-        System.out.println();
-        /*********************************************************************************/
-        for (int i = 0, a = 70, b = 0; i <= 4; i++) {
-            for (int y = 0; y < b; y++) {
-                System.out.print("  ");
-            }
-            b++;
-
-            for (int c = 65; c < a; c++) {
-                System.out.print((char) c + " ");
-            }
-            a--;
+            lastLetter--;
             System.out.println();
         }
     }
