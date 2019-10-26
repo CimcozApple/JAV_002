@@ -8,20 +8,19 @@ public class Pattern_035 {
          *   4 4 4 4 4 4 4
          * 5 5 5 5 5 5 5 5 5
          *
-         * row value preferably be from 1 up to 9
+         * 'numberOfRowsInPyramid' value preferably be from 1 up to 9
          * */
-        int row = 9;
-
-        for (int i = 1, x = row - 1, y = 1; i <= row; i++) {
-            for (int a = 0; a < x; a++) {
+        int numberOfRowsInPyramid = 9;
+        for (int i = 1, spaces = numberOfRowsInPyramid - 1, digit = 1; i <= numberOfRowsInPyramid; i++) {
+            for (int a = 0; a < spaces; a++) {
                 System.out.print("  ");
             }
-            x--;
+            spaces--;
 
-            for (int b = 0; b < y; b++) {
+            for (int b = 0; b < digit; b++) {
                 System.out.print(i + " ");
             }
-            y = y + 2;
+            digit = digit + 2;
             System.out.println();
         }
     }
