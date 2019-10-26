@@ -8,16 +8,16 @@ public class Pattern_034 {
          *  *******
          * *********
          * */
-        for (int i = 0, y = 4, x = 1; i < 5; i++) {
-            for (int a = y; a > 0; a--) {
+        for (int i = 0, spaces = 4, asterisk = 1; i < 5; i++) {
+            for (int a = spaces; a > 0; a--) {
                 System.out.print(" ");
             }
-            y--;
+            spaces--;
 
-            for (int b = 0; b < x; b++) {
+            for (int b = 0; b < asterisk; b++) {
                 System.out.print("*");
             }
-            x = x + 2;
+            asterisk = asterisk + 2;
             System.out.println();
         }
     }
