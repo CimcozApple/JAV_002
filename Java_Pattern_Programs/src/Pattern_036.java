@@ -10,20 +10,20 @@ public class Pattern_036 {
          *
          * row value preferably be from 1 up to 5
          * */
-        int row = 5;
-        int spaces = row - 1;
-        int digits = 1;
+        int numberOfRowsInPyramid = 5;
+        int spacesBeforeDigit = numberOfRowsInPyramid - 1;
+        int digit = 1;
 
-        for (int i = 0; i < row; i++) {
-            for (int a = 0; a < spaces; a++) {
+        for (int i = 0; i < numberOfRowsInPyramid; i++) {
+            for (int a = 0; a < spacesBeforeDigit; a++) {
                 System.out.print("  ");
             }
-            spaces--;
+            spacesBeforeDigit--;
 
-            for (int b = 0; b < digits; b++) {
-                System.out.print(digits + " ");
+            for (int b = 0; b < digit; b++) {
+                System.out.print(digit + " ");
             }
-            digits = digits + 2;
+            digit = digit + 2;
             System.out.println();
         }
     }
