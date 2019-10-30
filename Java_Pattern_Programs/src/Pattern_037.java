@@ -8,7 +8,7 @@ public class Pattern_037 {
          *   D D D D D D D
          * E E E E E E E E E
          *
-         * row value preferably be from 1 up to 26
+         * 'rows' value preferably be from 1 up to 26
          * */
         int rows = 26;
         int spaces = rows - 1;
