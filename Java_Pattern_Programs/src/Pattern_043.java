@@ -8,9 +8,9 @@ public class Pattern_043 {
          *   3 2 1 0 1 2 3
          * 4 3 2 1 0 1 2 3 4
          *
-         * howManyRowsDoYouNeed value preferably be from - up to -
+         * 'howManyRowsDoYouNeed' value preferably be from 1 up to 10
          * */
-        int howManyRowsDoYouNeed = 5;
+        int howManyRowsDoYouNeed = 10;
         int countOfSpacesBeforeFirstNumber = howManyRowsDoYouNeed - 1;
 
         for (int i = 0, countDigit = 1, digit = 0, newRightDigit = 0; i < howManyRowsDoYouNeed; i++) {
