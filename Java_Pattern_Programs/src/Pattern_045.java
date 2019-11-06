@@ -8,7 +8,7 @@ public class Pattern_045 {
         *   1 2 3 4 3 2 1
         * 1 2 3 4 5 4 3 2 1
         * */
-        int countOfRows = 3;
+        int countOfRows = 9;
         int countOfSpacesBeforeFirstDigit = countOfRows - 1;
 
         for (int i = 0; i < countOfRows; i++) {
@@ -18,8 +18,16 @@ public class Pattern_045 {
 
             countOfSpacesBeforeFirstDigit--;
 
-            for (int b = 0; b < 1; b++) {
+            int firstDigit = 1;
+            for (int b = 0; b <= i; b++) {
+                System.out.print(firstDigit + " ");
+                firstDigit++;
+            }
 
+            int minusOneFromFirstDigit = firstDigit - 1;
+            for (int c = 0; c < i; c++) {
+                minusOneFromFirstDigit -= 1;
+                System.out.print(minusOneFromFirstDigit + " ");
             }
 
             System.out.println();
