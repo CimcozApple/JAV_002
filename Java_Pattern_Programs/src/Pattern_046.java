@@ -18,14 +18,16 @@ public class Pattern_046 {
             }
             spacesBeforeLetter--;
 
+            int aLetter;
             for (int b = -1, aLetter = 65; b < i; b++) { // first part of A B
                 System.out.print((char) aLetter + " ");
                 aLetter++;
             }
 
-//            for (int c = 0; c < ) { // second part of B A
-//
-//            }
+            for (int c = 0; c < i - 1; c++) { // second part of B A
+                System.out.print(aLetter + " ");
+                aLetter--;
+            }
 
             System.out.println();
         }
