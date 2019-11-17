@@ -7,10 +7,10 @@ public class Pattern_046 {
         *     A B C B A
         *   A B C D C B A
         * A B C D E D C B A
+        * change only 'numberRowsOfPyramid' value for increase or decrease height of pyramid, preferably from 1 up to 26
         * */
-        int numberRowsOfPyramid = 2;
+        int numberRowsOfPyramid = 26;
         int spacesBeforeLetter = numberRowsOfPyramid - 1;
-        int zLetter = 91;
 
         for (int i = 0; i < numberRowsOfPyramid; i++) {
             for (int a = 0; a < spacesBeforeLetter; a++) {
@@ -18,17 +18,17 @@ public class Pattern_046 {
             }
             spacesBeforeLetter--;
 
-            int aLetter;
-            for (int b = -1, aLetter = 65; b < i; b++) { // first part of A B
+            int aLetter = 65;
+            for (int b = -1; b < i; b++) { // first part of A B
                 System.out.print((char) aLetter + " ");
                 aLetter++;
             }
 
-            for (int c = 0; c < i - 1; c++) { // second part of B A
-                System.out.print(aLetter + " ");
-                aLetter--;
+            --aLetter;
+            for (int c = 0; c < i; c++) { // second part of B A
+                --aLetter;
+                System.out.print((char) aLetter + " ");
             }
-
             System.out.println();
         }
     }
