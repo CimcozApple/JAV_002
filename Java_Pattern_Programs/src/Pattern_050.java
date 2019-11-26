@@ -8,8 +8,10 @@ public class Pattern_050 {
         *       1 2 3
         *         1
         * */
-        int heightOfUpsideDownPyramid = 3;
+        int heightOfUpsideDownPyramid = 5;
         int space = 0;
+        int numberInRow = heightOfUpsideDownPyramid * 2 - 1;
+
         for (int i = 0; i < heightOfUpsideDownPyramid; i++) {
             for (int a = 0; a < space; a++) {
                 System.out.print("  ");
@@ -17,16 +19,13 @@ public class Pattern_050 {
 
             space++;
 
-
-            for (int b = 0; b < ...) {
-
+            int digit = 1;
+            for (int b = 0; b < numberInRow; b++) {
+                System.out.print(digit + " ");
+                digit++;
             }
 
-
-
-
-
-
+            numberInRow -= 2;
             System.out.println();
         }
     }
