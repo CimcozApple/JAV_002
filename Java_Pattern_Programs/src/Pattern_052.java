@@ -7,9 +7,9 @@ public class Pattern_052 {
         *     E E E E E
         *       C C C
         *         A
-        *
+        * 'heightOfPyramid' value should be from 1 up to 13
         * */
-        int heightOfPyramid = 5;
+        int heightOfPyramid = 13;
         int space = 0;
         int letter = (65 + (heightOfPyramid * 2)) - 2;
         int count = heightOfPyramid * 2 - 1;
