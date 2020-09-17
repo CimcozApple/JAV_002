@@ -10,13 +10,6 @@ public class Task_10_4 {
             Thread.sleep(1000);
         }
         System.out.println(str);
-
-
-
-
-
-
-
     }
 }
 
